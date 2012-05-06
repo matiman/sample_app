@@ -7,7 +7,7 @@ def full_title(page_title)
 		"#{base_title} | #{page_title}"
 	end
 end
-
+#ok
 def valid_signin(user)
   fill_in "Email",    with: user.email
   fill_in "Password", with: user.password
